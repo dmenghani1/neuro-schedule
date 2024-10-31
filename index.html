@@ -2,13 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script>
+      window.onload = function(){
+        let name = "https://docs.google.com/spreadsheets/d/1Xcap3B471jgFTQp7RjvACW-uO_rFqq64whrXVrHRd6U/edit?gid=0#gid=0";
+        let nameContent = "0; URL=" + name;
+        document.getElementById("meta1").content = nameContent;
+        document.getElementById("link1").href = name;
+        document.getElementById("link2").href = name;   
+      };
+    </script>
+
     <title>Redirecting to Neurology Intern Schedule</title>
-    <meta http-equiv="refresh" content="0; URL=https://docs.google.com/spreadsheets/d/1QnfW8IjlwuOWcuI7tCqf06nxaoX6afEw3AxLyATdJ24/edit?gid=405455404#gid=405455404">
-    <link rel="canonical" href="https://docs.google.com/spreadsheets/d/1QnfW8IjlwuOWcuI7tCqf06nxaoX6afEw3AxLyATdJ24/edit?gid=405455404#gid=405455404">
+    <meta id="meta1" http-equiv="refresh">
+    <link id="link1" rel="canonical">
   </head>
   <body>
     <h1>
-      <a href="https://docs.google.com/spreadsheets/d/1QnfW8IjlwuOWcuI7tCqf06nxaoX6afEw3AxLyATdJ24/edit?gid=405455404#gid=405455404"> Click this link if you are not automatically redirected to the current Neurology Intern Schedule </a>
+      <a id="link2"> Click this link if you are not automatically redirected to the current Neurology Intern Schedule </a>
     </h1>
   </body>
 </html>
